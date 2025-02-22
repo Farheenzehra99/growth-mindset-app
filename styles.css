@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.gradient-text {
+    background: linear-gradient(45deg, #00B4DB, #FF69B4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.stApp {
+    background-color: #0E1117;
+}
+
+.uploadedFile {
+    background-color: #262730;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.stButton > button {
+    background: linear-gradient(45deg, #00B4DB, #FF69B4);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.dataframe {
+    background-color: #262730 !important;
+    color: white !important;
+}
+
+/* Simplified creator links styles */
+.creator-links {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.creator-link {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.creator-link:hover {
+    background: linear-gradient(45deg, #00B4DB, #FF69B4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.made-by-text {
+    color: #FF69B4;
+    display: inline;
+    margin-right: 5px;
+}
+
+.creator-name {
+    display: inline;
+    font-weight: bold;
+    background: linear-gradient(45deg, #00B4DB, #0088ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
